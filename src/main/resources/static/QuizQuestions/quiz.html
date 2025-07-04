@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+  <div class="quiz-wrapper">
+
+      <h2 class="quiz-heading"></h2>
+
+      <form action="validateAns/getScore" method="post" class="quiz-form">
+          <div class="timer">Time Left: <span id="timer">10:00</span></div>
+          <button  type="submit" class="submit-btn"> Submit</button>
+      </form>
+        <p class="display score-para"></p>
+      <button class="wrong-btn display">Check Wrong Questions</button>
+  </div>
+  <h2 class="wrongAns-heading display">Wrong Answers Review</h2>
+    <div class="scroll-wrapper display">
+
+    </div>
+</body>
+<script src="quiz.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</html>

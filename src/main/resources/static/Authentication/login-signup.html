@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-Signup-page</title>
+    <link rel="stylesheet" href="login-signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="overlay" id="overlay" style="display: none">
+    <span class="loader"></span>
+</div>
+<div class="form">
+    <h2 class="heading" style="color:#4A6FDC">Create your account</h2>
+    <form
+    method="post"
+    action="/doLogin"
+    >
+        <input class="otp display" type="text" placeholder="OTP" >
+        <input name="username" class="name" type="text" placeholder="Username">
+
+        <input type="email"  class="email" placeholder="Email" >
+
+        <input name="password" class="password" type="password" placeholder="Password">
+
+        <input class="c-password" type="password" placeholder="Confirm Password" >
+        <div class="btn">
+            <button class="verify-otp button display" type="button">Verify OTP</button>
+            <button class="account-login button" type="submit">Login to your account</button>
+            <button class="account-signup display button" type="button">Create new Account</button>
+        </div>
+
+    </form>
+    <div class="footer">
+        <p class="login alter-style">Login </p>
+
+        <p class="signup style">Sign up</p>
+    </div>
+</div>
+<script src="login-signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
