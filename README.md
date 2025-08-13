@@ -4,7 +4,7 @@ https://dbdiagram.io/d/689c48811d75ee360a604ee0
 # 🎯 QuizMaster
 
 **QuizMaster** is a full-stack web-based quiz application designed to provide a seamless and engaging quiz experience.  
-It supports multiple quiz categories, tracks user performance, and includes an admin dashboard for managing quizzes.
+It supports multiple quiz categories, tracks top 5 user performance and ready notes for download and also payment integration(stripe payment integration in test mode).
 
 ---
 
@@ -24,12 +24,10 @@ It supports multiple quiz categories, tracks user performance, and includes an a
 
 ### 💻 Frontend
 - **HTML5 / CSS3 / JavaScript**
-- **React.js** (or Angular.js if that’s what you're using)
-- Axios for API integration
 
 ### 🌐 Backend
 - **Spring Boot (Java)**
-- **Spring Security & JWT** (for authentication)
+- **Spring Security(for authentication)
 - RESTful APIs
 
 ### 🗃️ Database
