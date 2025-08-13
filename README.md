@@ -1,3 +1,6 @@
+#you can use database schema from below link 
+https://dbdiagram.io/d/689c48811d75ee360a604ee0
+
 # 🎯 QuizMaster
 
 **QuizMaster** is a full-stack web-based quiz application designed to provide a seamless and engaging quiz experience.  
