@@ -14,9 +14,7 @@ It supports multiple quiz categories, tracks top 5 user performance and ready no
 - 📚 Multiple quiz categories (e.g., DSA, Java, SQL, HTML/CSS)
 - 🧠 Timed quizzes with randomized questions
 - 📊 Leaderboard & performance tracking
-- ⚙️ Admin panel to manage quizzes, questions & results
 - 🌐 Responsive and clean UI
-- 🔍 Search quizzes by title or type
 
 ---
 
@@ -27,7 +25,7 @@ It supports multiple quiz categories, tracks top 5 user performance and ready no
 
 ### 🌐 Backend
 - **Spring Boot (Java)**
-- **Spring Security(for authentication)
+- **Spring Security(basic authentication)
 - RESTful APIs
 
 ### 🗃️ Database
